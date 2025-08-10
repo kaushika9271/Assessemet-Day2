@@ -1,0 +1,21 @@
+package Day2;
+
+import java.io.*;
+import java.util.*;
+
+public class Solution2 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int totalstudents  = sc.nextInt();
+        int numberofgroups = sc.nextInt();
+
+        int studentsPerGroup = totalstudents / numberofgroups;
+        int remainingstudents = totalstudents % numberofgroups;
+
+        System.out.println("The number of students in each team is " + studentsPerGroup + " and left out is " + remainingstudents);
+        
+       
+    }
+}
