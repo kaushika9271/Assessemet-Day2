@@ -1,0 +1,38 @@
+package Day2;
+
+public class Solution1 {
+
+	public static void main(String[] args) {
+		int a=35;
+		int b=40;
+		System.out.println("before swap:");
+		System.out.println("a = " +a);
+		System.out.println("b = " +b);
+		
+		int temp=a;
+		a=b;
+		b=temp;
+		System.out.println("after swap:");
+		System.out.println("a = " +a);
+		System.out.println("b = " +b);
+		
+		
+		int c = 2;
+        int d = 3;
+
+        System.out.println("Before swap:");
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+
+       
+        c = c ^ d;  // c = 
+        d = c ^ d;  // d = 
+        c = c ^ d;  // c = 
+
+        System.out.println("After swap:");
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+	}
+
+}
+
